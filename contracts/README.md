@@ -1,0 +1,3 @@
+# Shared contracts
+
+This directory stores agreements shared by frontend, backend, and analytics. Document schemas and approved examples before integration. Agree on field names, data types, units, timestamp formats and time zones, required versus optional values, nullability, and validation rules. Record decisions so producers and consumers evolve together. Examples must be synthetic or explicitly approved, never personal health data.

@@ -1,0 +1,57 @@
+# JavaScript
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment files; keep the template
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local database artifacts
+*.sqlite
+*.sqlite3
+*.db
+
+# Large data payloads are ignored; guidance and markers stay trackable
+data/raw/*
+!data/raw/README.md
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/README.md
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/README.md
+!data/processed/.gitkeep
